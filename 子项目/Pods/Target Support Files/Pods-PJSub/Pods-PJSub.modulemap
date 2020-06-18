@@ -1,0 +1,6 @@
+framework module Pods_PJSub {
+  umbrella header "Pods-PJSub-umbrella.h"
+
+  export *
+  module * { export * }
+}

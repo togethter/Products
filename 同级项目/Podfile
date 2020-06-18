@@ -1,0 +1,20 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '8.0'
+
+def common_pods
+  use_frameworks!
+  pod 'MJRefresh'
+end
+
+workspace 'demo1.xcworkspace'
+project   'demo1.xcodeproj'
+target 'demo1' do
+  common_pods
+  
+end
+
+target 'libWork' do
+  project 'libWork/libWork.xcodeproj'
+  common_pods
+  
+end

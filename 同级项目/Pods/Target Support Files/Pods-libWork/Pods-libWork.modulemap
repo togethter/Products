@@ -1,0 +1,6 @@
+framework module Pods_libWork {
+  umbrella header "Pods-libWork-umbrella.h"
+
+  export *
+  module * { export * }
+}
